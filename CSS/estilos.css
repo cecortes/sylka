@@ -1,0 +1,49 @@
+body{
+	background: #E6E6E6;
+	color: #2E2E2E; /*Color de la tipografía*/
+}
+
+/*Selector universal*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: 'Comfortaa', cursive;
+	font-size: 50px;
+}
+
+h2{
+	font-family: 'Comfortaa', cursive;
+	font-size: 45px;
+	color: #DF7401;
+}
+
+a:link{
+	text-decoration: none;
+	color: #2E2E2E;
+	font-family: 'Comfortaa', cursive;
+	font-size: 45px;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #2E2E2E;
+	font-family: 'Comfortaa', cursive;
+	font-size: 45px;
+}
+
+a:active{
+	text-decoration: underline overline;
+	font-family: 'Comfortaa', cursive;
+	font-size: 45px;
+	color: #DF7401;
+}
+
+a:hover{
+	text-decoration: underline overline;
+	font-family: 'Comfortaa', cursive;
+	font-size: 45px;
+	color: #DF7401;
+}
