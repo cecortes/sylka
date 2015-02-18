@@ -39,7 +39,7 @@
 	echo '<a href="altapedidos.php"><div style="text-align:left"><div style="font-size:45px;">Alta de Pedidos</div></div></a>';
 	if($asesor =='admin' || $asesor=='sergioceballos' || $asesor=='ari')
 	{
-		//echo '<a href="consultapedidos2.php"><div style="text-align:left"><div style="font-size:45px;">Consulta de Pedidos</div></div></a>';
+		echo '<a href="altapedidosasesor.php"><div style="text-align:left"><div style="font-size:45px;">Alta de Pedidos por Asesor</div></div></a>';
 	}
 	else
 	{
